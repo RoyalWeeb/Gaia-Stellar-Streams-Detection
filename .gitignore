@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.ruff_cache/
+.mypy_cache/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.python-version
+
+# Generated runs, previews, and temporary presentation authoring files
+outputs/
+.presentation_qa/
+.codex/
+*.log
+*.ppt
+*.pptx
+docs/Project_Report.pdf
+
+# Local raw datasets (download from Gaia or use the documented demo data)
+data/gaia_dr3.csv
+data/gaia_halo.csv

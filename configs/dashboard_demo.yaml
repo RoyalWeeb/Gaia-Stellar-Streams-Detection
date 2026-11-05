@@ -1,0 +1,10 @@
+# Small deterministic SYNTHETIC demonstration, not a Gaia benchmark.
+seed: 42
+n_neighbors: 12
+n_components: 3
+min_cluster_size: 15
+min_samples: 5
+cluster_selection_method: leaf
+stability_runs: 1
+plot_max_stars: 250
+max_stars: 100000
